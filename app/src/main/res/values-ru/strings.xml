@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Записки</string>
+    <string name="add" translatable="false">Добавить</string>
+    <string name="title" translatable="false">Заголовок</string>
+    <string name="desc" translatable="false">Подробные примечания...</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    tools:context=".controller.AddNotes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10pt"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="20pt"
+            android:layout_marginEnd="10pt"
+            android:layout_marginRight="10pt"
+            android:layout_marginBottom="10pt"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:hint="@string/title"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etDesc"
+            android:layout_width="match_parent"
+            android:layout_height="120pt"
+            android:layout_marginStart="10pt"
+            android:layout_marginLeft="10pt"
+            android:layout_marginEnd="10pt"
+            android:layout_marginRight="10pt"
+            android:background="@drawable/background"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/desc"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/buAdd"
+            android:layout_width="50pt"
+            android:layout_height="25pt"
+            android:layout_gravity="right"
+            android:layout_margin="10pt"
+            android:onClick="buAdd"
+            android:text="@string/add"
+            app:backgroundTint="#03A9F4"
+            app:cornerRadius="5pt" />
+    </LinearLayout>
+
+</LinearLayout>
